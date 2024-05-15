@@ -1,0 +1,233 @@
+/* форми та елементи управління */
+
+/* #comment{
+    width: 300px;
+height: 100px;
+background-color: yellow;
+resize: none;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+#register-form{
+    background-color: slategray;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#register-form table  td {
+    padding: 0 5px;
+    width: 100%;
+}
+
+#register-form table tr:first-child{
+    text-align: center;
+}
+
+.tr1{
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+}
+
+
+
+
+
+
+#credit-card-form{
+    width: 700px;
+    background-color: aqua;
+    background-image: url(../photos/moon_flag.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    padding: 30px;
+    border-radius: 10px;
+margin: auto;
+background-position: right bottom;
+}
+ 
+#credit-card-form .credit-card-details{
+margin-left: -60px;
+}
+#credit-card-form .card-number label{
+    display: block;
+}
+
+
+#credit-card-form .card-details{
+    display: flex;
+}
+
+#credit-card-form .input-container{
+    width: 350px;
+    background-color:aliceblue ;
+}
+
+.credit-card-details{
+    background-color: orange;
+}
+
+#credit-card-form .card-number{
+    margin-top: 30px;
+}
+
+#credit-card-form .card-number input[type="Text"],
+#credit-card-form .card-number input[type="password"] {
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    border:none;
+    border-bottom: 2px solid #6a959e;
+    outline:none;
+    color: #7fa3a6
+}
+
+
+
+
+
+
+
+
+
+
+
+#creditCardForm {
+    width: 700px;
+    background-color: #9fcdcd;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    background-image: url(../photos/moon_flag.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom -100px right -100px;
+}
+
+#creditCardForm .credit-card-details {
+    background-color: orange;
+    position: relative;
+    margin-left: -60px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    padding-left:  60px ;
+}
+
+
+#creditCardForm .form-control label {
+    display: block;
+}
+
+#creditCardForm .inputs-container {
+    width: 350px;
+}
+
+#creditCardForm .form-control {
+    margin-top: 30px;
+}
+
+#creditCardForm .form-control input[type="text"],
+#creditCardForm .form-control input[type="password"]
+{
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    background-color: #a9d2d2;
+    border: none;
+    border-bottom: 2px solid #6a959e;
+    outline: none;
+    color: #7fa3a6
+}
+
+#creditCardForm .card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#creditCardForm .card-info > div {
+    width: 30%;
+}
+
+#creditCardForm .card-info .middle {
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+
+
+
+.father{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.body1{
+    background-color: rgb(235, 81, 81);
+}
+.child{
+    display: block;
+    text-align: center;
+    background-color: wheat;
+    width: 450px;
+    height: 350px;
+}
+.input1{
+    width: 70%;
+    padding: 13px;
+    margin: 15px;
+    text-align: center;
+}
+
+.button1{
+    background-color: green;
+    color: white;
+    font-size: large;
+}
+
+.button4{
+    text-align: center;
+    padding: 15px 30px;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    
+}
+.button3{
+    background-color: lightseagreen;
+}
+.button2{
+    background-color: blue;
+}
+.p1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.img1{
+    width: 25px;
+}
+.a5{
+    font-size: 25px;
+    color: rgb(180, 51, 51);
+    text-decoration: none;
+}
+.h11{
+    padding-top: 20px;
+}
+.father1{
+    display: flex;
+    justify-content: center;
+}
+.center {
+    text-align: center;
+}
